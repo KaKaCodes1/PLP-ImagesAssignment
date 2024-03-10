@@ -1,0 +1,76 @@
+body,html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Monda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    height: 100%;
+    background-color: #000700;
+}
+h1{
+    color: #52c62f;
+    font-family: 'Audiowide', cursive;
+}
+.imgholder{
+    flex: 30%;
+    padding: 10px;
+}
+.contentholder{
+    flex: 70%;
+    padding: 10px;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #5FA14A;
+}
+li a:hover{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-transform: uppercase;
+}
+.techpic{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap ;
+    background-color: #000700;
+    color: #5FA14A;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ; 
+
+}
+.picholder{
+    flex: 33.333%;
+    padding: 10px;
+
+}
+.naturepic{
+    width:100%;
+    height:70%;
+    border-radius: 10px;
+
+}
+.foodpic{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+
+}
